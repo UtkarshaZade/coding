@@ -79,7 +79,7 @@ void viewPasswords(const string& filename, char key, const string& masterPasswor
                     cout << "Incorrect master password. Unable to reveal password.\n";
                 }
             }
-            cout << "-------------------------------\n";
+            
         }
         file.close();
     } else {
@@ -185,8 +185,8 @@ string generate(int length) {
 
 int main() {
     const string filename = "passwords.csv";
-    char key = 'X';  
-    string masterPassword = "mypassword123";  
+    char key = 't';  
+    string masterPassword = "pass@#";  
     int choice;
 
     do {
