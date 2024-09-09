@@ -172,7 +172,7 @@ void updatePassword(const string& filename, char key) {
 
 
 string generate(int length) {
-    const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()";
+    const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$-_+=/\|}{[]~:;'<>,.?%^&*()";
     string password;
     srand(time(0));
     for (int i = 0; i < length; i++) {
