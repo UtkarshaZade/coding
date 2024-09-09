@@ -2,9 +2,7 @@
 #include<fstream>
 #include<sstream>
 #include<string>
-#include<vector>
 #include<cstdlib>
-#include<ctime>
 
 using namespace std;
 string encrypt(const string& input, char key) {
